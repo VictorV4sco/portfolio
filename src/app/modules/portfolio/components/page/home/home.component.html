@@ -3,4 +3,20 @@
 <main>
     <app-knowledge/>
     <app-experiences/>
+
+    <!--
+    Usando o @defer, pois, é um pouco pesado e teremos um modal dentro
+    On viewport: Carrega quando o scroll chega 
+    -->
+    @defer (on viewport) {
+        <app-projects />
+    } @placeholder {
+        <section>
+            <h2>Loading projects...</h2>
+        </section>  
+    } @error {
+        <section>
+            <h2>Failed, try again...</h2>
+        </section>
+    }
 </main>
