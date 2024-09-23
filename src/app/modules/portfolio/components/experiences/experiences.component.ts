@@ -14,10 +14,10 @@ export class ExperiencesComponent {
   public arrayExperiences = signal<IExperiences[]>([
     {
       summary: {
-        strong: "",
-        p: ""
+        strong: "Teste1",
+        p: "Teste2"
       },
-      text: ""
+      text: "Teste3"
     }
   ])
 }
