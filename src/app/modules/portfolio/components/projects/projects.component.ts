@@ -27,5 +27,50 @@ export class ProjectsComponent {
         },
       ],
     },
+    {
+      src: 'assets/img/projects/spring-project.png',
+      alt: 'Spring Project',
+      title: 'library',
+      width: '100px',
+      height: '51px',
+      description: 
+        '<p>Library API project</p>',
+      links: [
+        {
+          name: 'See the project',
+          href: 'https://github.com/VictorV4sco/library',
+        },
+      ],
+    },
+    {
+      src: 'assets/img/projects/spring-project.png',
+      alt: 'Spring Project',
+      title: 'library',
+      width: '100px',
+      height: '51px',
+      description: 
+        '<p>Library API project</p>',
+      links: [
+        {
+          name: 'See the project',
+          href: 'https://github.com/VictorV4sco/library',
+        },
+      ],
+    },
+    {
+      src: 'assets/img/projects/spring-project.png',
+      alt: 'Spring Project',
+      title: 'library',
+      width: '100px',
+      height: '51px',
+      description: 
+        '<p>Library API project</p>',
+      links: [
+        {
+          name: 'See the project',
+          href: 'https://github.com/VictorV4sco/library',
+        },
+      ],
+    },
   ]);
 }
