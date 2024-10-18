@@ -25,9 +25,9 @@ export class ProjectsComponent {
     {
       src: 'assets/img/projects/spring-project.png',
       alt: 'Spring Project',
-      title: 'library',
-      width: '100px',
-      height: '51px',
+      title: 'Library',
+      width: '200px', // 100px
+      height: '101px', // 51px
       description: 
         '<p>Library API project</p>',
       links: [

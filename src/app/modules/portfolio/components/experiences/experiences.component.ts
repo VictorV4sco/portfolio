@@ -14,10 +14,22 @@ export class ExperiencesComponent {
   public arrayExperiences = signal<IExperiences[]>([
     {
       summary: {
-        strong: "Teste1",
-        p: "Teste2"
+        strong: "Back-End",
+        p: "Java"
       },
-      text: "Teste3"
+      text: `
+      Possuo conhecimento em:
+      <ul>
+        <li> - Spring Boot</li>
+        <li> - Hibernate</li>
+        <li> - JPA</li>
+        <li> - Microservices</li>
+        <li> - REST APIs</li>
+        <li> - MySQL</li>
+        <li> - JUnit</li>
+        <li> - Mockito</li>
+      </ul>
+    `
     }
   ])
 }
