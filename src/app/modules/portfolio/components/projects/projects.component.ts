@@ -37,6 +37,21 @@ export class ProjectsComponent {
         },
       ],
     },
+    {
+      src: 'assets/img/projects/spring-project.png',
+      alt: 'Spring Project',
+      title: 'E-Commerce',
+      width: '200px', // 100px
+      height: '101px', // 51px
+      description: 
+        '<p>E-Commerce API project</p>',
+      links: [
+        {
+          name: 'See the project',
+          href: 'https://github.com/VictorV4sco/e-commerce',
+        },
+      ],
+    },
   ]);
 
   public openDialog(data: IProjects) {
