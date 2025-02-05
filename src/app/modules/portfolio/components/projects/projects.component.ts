@@ -52,6 +52,21 @@ export class ProjectsComponent {
         },
       ],
     },
+    {
+      src: 'assets/img/projects/spring-project.png',
+      alt: 'Spring Project',
+      title: 'VBflix',
+      width: '200px', // 100px
+      height: '101px', // 51px
+      description: 
+        '<p>API project based on Netflix</p>',
+      links: [
+        {
+          name: 'See the project',
+          href: 'https://github.com/VictorV4sco/vbflix',
+        },
+      ],
+    },
   ]);
 
   public openDialog(data: IProjects) {
