@@ -55,15 +55,15 @@ export class ProjectsComponent {
     {
       src: 'assets/img/projects/spring-project.png',
       alt: 'Spring Project',
-      title: 'VBflix',
+      title: 'Enterprise',
       width: '200px', // 100px
       height: '101px', // 51px
       description: 
-        '<p>API project based on Netflix</p>',
+        '<p>API project to enterprises</p>',
       links: [
         {
           name: 'See the project',
-          href: 'https://github.com/VictorV4sco/vbflix',
+          href: 'https://github.com/VictorV4sco/enterprise',
         },
       ],
     },
