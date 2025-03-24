@@ -26,8 +26,8 @@ export class ProjectsComponent {
       src: 'assets/img/projects/spring-project.png',
       alt: 'Spring Project',
       title: 'Library',
-      width: '200px', // 100px
-      height: '101px', // 51px
+      width: '100px', // 100px
+      height: '70px', // 51px
       description: 
         '<p>Library API project</p>',
       links: [
@@ -41,8 +41,8 @@ export class ProjectsComponent {
       src: 'assets/img/projects/spring-project.png',
       alt: 'Spring Project',
       title: 'E-Commerce',
-      width: '200px', // 100px
-      height: '101px', // 51px
+      width: '100px', // 100px
+      height: '70px', // 51px
       description: 
         '<p>E-Commerce API project</p>',
       links: [
@@ -56,8 +56,8 @@ export class ProjectsComponent {
       src: 'assets/img/projects/spring-project.png',
       alt: 'Spring Project',
       title: 'Enterprise',
-      width: '200px', // 100px
-      height: '101px', // 51px
+      width: '100px', // 100px
+      height: '70px', // 51px
       description: 
         '<p>API project to enterprises</p>',
       links: [
@@ -72,14 +72,30 @@ export class ProjectsComponent {
       src: 'assets/img/projects/spring-project.png',
       alt: 'Spring Project',
       title: 'Consult',
-      width: '200px', // 100px
-      height: '101px', // 51px
+      width: '100px', // 100px
+      height: '70px', // 51px
       description: 
         '<p>Testing how to use personalize consults with JPQL</p>',
       links: [
         {
           name: 'See the project',
           href: 'https://github.com/VictorV4sco/desafio-consulta-vendas',
+        },
+      ],
+    },
+
+    {
+      src: 'assets/img/projects/spring-project.png',
+      alt: 'Spring Project',
+      title: 'Validation & Security',
+      width: '100px', // 100px
+      height: '70px', // 51px
+      description: 
+        '<p>Testing how to use Validation and Spring Security</p>',
+      links: [
+        {
+          name: 'See the project',
+          href: 'https://github.com/VictorV4sco/validacaoEseguranca',
         },
       ],
     },
