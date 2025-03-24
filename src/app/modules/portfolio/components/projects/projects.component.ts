@@ -67,6 +67,23 @@ export class ProjectsComponent {
         },
       ],
     },
+
+    {
+      src: 'assets/img/projects/spring-project.png',
+      alt: 'Spring Project',
+      title: 'Consult',
+      width: '200px', // 100px
+      height: '101px', // 51px
+      description: 
+        '<p>Testing how to use personalize consults with JPQL</p>',
+      links: [
+        {
+          name: 'See the project',
+          href: 'https://github.com/VictorV4sco/desafio-consulta-vendas',
+        },
+      ],
+    },
+
   ]);
 
   public openDialog(data: IProjects) {
