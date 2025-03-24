@@ -23,6 +23,9 @@ export class ExperiencesComponent {
         <li> - Spring Boot</li>
         <li> - Hibernate</li>
         <li> - JPA</li>
+        <li> - JPQL</li>
+        <li> - Spring Security</li>
+        <li> - Validations</li>
         <li> - Microservices</li>
         <li> - REST APIs</li>
         <li> - MySQL</li>
