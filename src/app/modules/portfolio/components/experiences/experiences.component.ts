@@ -24,13 +24,17 @@ export class ExperiencesComponent {
         <li> - Hibernate</li>
         <li> - JPA</li>
         <li> - JPQL</li>
+        <li> - SQL</li>
         <li> - Spring Security</li>
+        <li> - JWT</li>
         <li> - Validations</li>
         <li> - Microservices</li>
         <li> - REST APIs</li>
         <li> - MySQL</li>
+        <li> - PostgreSQL</li>
         <li> - JUnit</li>
         <li> - Mockito</li>
+        <li> - Rest Assured</li>
       </ul>
     `
     }
