@@ -23,42 +23,11 @@ export class ProjectsComponent {
   #dialog = inject(MatDialog)
   public arrayProjects = signal<IProjects[]>([
     {
-      src: 'assets/img/projects/spring-project.png',
-      alt: 'Spring Project',
-      title: 'E-Commerce',
-      width: '100px', // 100px
-      height: '70px', // 51px
-      description: 
-        '<p>E-Commerce API project</p>',
-      links: [
-        {
-          name: 'See the project',
-          href: 'https://github.com/VictorV4sco/e-commerce',
-        },
-      ],
-    },
-    {
-      src: 'assets/img/projects/spring-project.png',
-      alt: 'Spring Project',
-      title: 'Enterprise',
-      width: '100px', // 100px
-      height: '70px', // 51px
-      description: 
-        '<p>API project to enterprises</p>',
-      links: [
-        {
-          name: 'See the project',
-          href: 'https://github.com/VictorV4sco/enterprise',
-        },
-      ],
-    },
-
-    {
-      src: 'assets/img/projects/spring-project.png',
+      src: 'assets/img/projects/backend.png',
       alt: 'Spring Project',
       title: 'Consult',
-      width: '100px', // 100px
-      height: '70px', // 51px
+      width: '200px', // 100px
+      height: '99px', // 51px
       description: 
         '<p>Testing how to use personalize consults with JPQL</p>',
       links: [
@@ -70,17 +39,33 @@ export class ProjectsComponent {
     },
 
     {
-      src: 'assets/img/projects/spring-project.png',
+      src: 'assets/img/projects/backend.png',
       alt: 'Spring Project',
       title: 'Validation & Security',
-      width: '100px', // 100px
-      height: '70px', // 51px
+      width: '200px', // 100px
+      height: '99px', // 51px
       description: 
         '<p>Testing how to use Validation and Spring Security</p>',
       links: [
         {
           name: 'See the project',
           href: 'https://github.com/VictorV4sco/validacaoEseguranca',
+        },
+      ],
+    },
+
+    {
+      src: 'assets/img/projects/fullstack.png',
+      alt: 'Full-stack Project',
+      title: 'College project',
+      width: '200px', // 100px
+      height: '99px', // 51px
+      description: 
+        '<p>College project of a championship</p>',
+      links: [
+        {
+          name: 'See the project',
+          href: 'https://github.com/VictorV4sco/campeonato',
         },
       ],
     },

@@ -14,29 +14,30 @@ export class ExperiencesComponent {
   public arrayExperiences = signal<IExperiences[]>([
     {
       summary: {
-        strong: "Back-End",
-        p: "Java"
+        strong: "Freelance Web Developer",
+        p: "April/2025 to present"
       },
       text: `
-      Possuo conhecimento em:
-      <ul>
-        <li> - Spring Boot</li>
-        <li> - Hibernate</li>
-        <li> - JPA</li>
-        <li> - JPQL</li>
-        <li> - SQL</li>
-        <li> - Spring Security</li>
-        <li> - JWT</li>
-        <li> - Validations</li>
-        <li> - Microservices</li>
-        <li> - REST APIs</li>
-        <li> - MySQL</li>
-        <li> - PostgreSQL</li>
-        <li> - JUnit</li>
-        <li> - Mockito</li>
-        <li> - Rest Assured</li>
-      </ul>
-    `
+        <ul>
+          <li> - Working on web application development focused on back-end using Spring Boot and integration with front-end in Next.js;</li>
+          <br/>
+          <li> - Development of RESTful APIs following best practices and clean architecture;</li>
+          <br/>
+          <li> - Use of JPA/Hibernate for ORM and validation with Bean Validation;</li>
+          <br/>
+          <li> - Global exception handling with @ControllerAdvice;</li>
+          <br/>
+          <li> - Implementation of authentication and authorization with Spring Security and JWT;</li>
+          <br/>
+          <li> - Spring Security</li>
+          <br/>
+          <li> - Endpoint documentation with Swagger/OpenAPI;</li>
+          <br/>
+          <li> - Writing unit tests with JUnit and Mockito;</li>
+          <br/>
+          <li> - Use of Git, Docker, and AWS for version control and development environment;</li>
+        </ul>
+      `
     }
   ])
 }

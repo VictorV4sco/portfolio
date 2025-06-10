@@ -40,5 +40,9 @@ export class KnowledgeComponent {
       src: 'assets/icons/knowledge/database.svg',
       alt: 'Icone de conhecimento de database',
     },
+    {
+      src: 'assets/icons/knowledge/next.svg',
+      alt: 'Icone de conhecimento de Next.js',
+    },
   ]);
 }
